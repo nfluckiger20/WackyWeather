@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Julius+Sans+One&display=swap');
+
+h1 {
+  font-family: 'Acme', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+  margin: 25px;
+}
+h2 {
+  font-size: 22px;
+}
+body {
+  max-width: 800px;
+  margin: 1.25rem auto;
+}
+main {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+#main_image {
+  max-width: 200px;
+  float: right;
+  margin-top: -60px;
+}
+header,
+footer {
+  background-color: #869895;
+  color: #544646;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+footer {
+  text-align: center;
+  color: #544646;
+  font-family: 'Quicksand', sans-serif;
+  padding-right: 120px;
+}
+#main_links {
+  color: #544646;
+}
+#main_links:visited,
+#main_links:active {
+  color: #544646;
+}
+#main_links:hover {
+  text-decoration: underline;
+}
+#footer_link {
+  color: #544646;
+  text-decoration: none;
+}
+#footer_link:hover {
+  text-decoration: underline;
+}
+#footer_date {
+  margin-top: -10px;
+}
