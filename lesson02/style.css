@@ -80,3 +80,16 @@
   padding: 20px;
   height: 1%;
 }
+
+@media screen and (min-width: 480px) {
+  #aside {
+    width: 200px;
+    float: left;
+    margin-top: 220px;
+  }
+
+  p {
+    margin-left: 5px;
+    width: 850px;
+  }
+}
