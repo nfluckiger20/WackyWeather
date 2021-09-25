@@ -33,6 +33,19 @@ img {
   height: fit-content;
 }
 
+footer {
+  padding-top: 10px;
+  background-color: #004346;
+  height: 3em;
+  text-align: center;
+  color: white;
+}
+
+#date,
+footer a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 @media only screen and (max-width: 900px) {
   body {
     background-color: #e6ebf0;
