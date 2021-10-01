@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+main {
+  max-width: 800px;
+  margin: 1.25rem auto;
+}
+
+header {
+  background-color: #ffe89e;
+  height: 65px;
+}
+
+nav {
+  float: left;
+  text-align: center;
+  display: flex;
+  font-family: 'Comfortaa', cursive; 
+  font-size: 14px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  color: #536d83;
+  display: block;
+
+}
+
+li {
+  padding: 15px;
+  margin-top: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #536d83;
+  font-family: 'Comfortaa', cursive; 
+  font-size: 50px;;
+}  
+
+p{
+  font-family: 'Comfortaa', cursive; 
+  font-size: 16px;
+}
+
+.logo-img {
+  display: block;
+  margin: auto;
+}
+
+.nav-links {
+  color: #536d83;
+}
+.nav-links:visited {
+  color: #536d83;
+}
+.nav-links:hover {
+  color: #abc0c6;
+  text-decoration: wavy;
+}
+
+h2, h3, h4 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 22px;
+  color: #abc0c6;
+}
+
+#color-scheme {
+  width: 100%;
+}
