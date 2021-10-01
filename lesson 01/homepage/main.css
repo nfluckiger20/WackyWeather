@@ -45,6 +45,7 @@ footer {
 }
 #main_links:hover {
   text-decoration: underline;
+  color: #869895;
 }
 #footer_link {
   color: #544646;
