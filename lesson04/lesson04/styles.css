@@ -5,15 +5,18 @@
 .content {
   background-color: #abc0c6;
   color: #536d83;
-  width: 80%;
   margin: 0 auto;
 }
+
 main {
   padding: 1.2em;
 }
+
 body {
   margin-left: 1em;
   background-color: #f1efe8;
+  margin-right: 180px;
+  margin-left: 180px;
 }
 
 h1 {
@@ -80,25 +83,72 @@ nav {
   padding: 2em;
 }
 
-footer {
-  background-color: #abc0c6;
-  color: #536d83;
-  text-align: center;
-  font-size: 1em;
-  padding: 1em;
-}
-
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: 'Comfortaa', cursive;
   font-size: 25px;
   color: #536d83;
+}
+
+h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+  color: #abc0c6;
+}
+
+.social {
+  max-width: 50px;
+  max-height: 50px;
+  float: right;
+  padding-right: 20px;
+}
+
+.locate {
+  float: right;
+}
+
+.map {
+  float: left;
+  max-width: 500px;
+  margin-left: 180px;
+}
+
+#locationmap {
+  margin-right: 180px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 300px;
+  background-color: #ffe89e;
+  color: #536d83;
+  font-family: 'Comfortaa', cursive;
+}
+
+th,
+td {
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#fiveday table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 13px 40px;
+  margin: auto;
+  table-layout: fixed;
+}
+
+.days {
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+  color: purple;
 }
 
 @media only screen and (max-width: 760px) {
@@ -124,5 +174,9 @@ h3 {
   }
   .navigation li {
     display: none;
+  }
+  body {
+    background-color: #f1efe8;
+    width: 100%;
   }
 }

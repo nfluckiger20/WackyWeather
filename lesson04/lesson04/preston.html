@@ -27,17 +27,33 @@
     </nav>
     <main>
         <h1>Preston Idaho</h1>
-        <!--image-->>            
+        <!--image-->          
         </div>
         <h2>Five Day Forcast</h2>
-        <div id="fiveday">
-            <ul>
-                <li><img src="images/small.jpg" alt="forecast temperature"></li>
-                <li><img src="images/small.jpg" alt="forecast temperature"></li>
-                <li><img src="images/small.jpg" alt="forecast temperature"></li>
-                <li><img src="images/small.jpg" alt="forecast temperature"></li>
-                <li><img src="images/small.jpg" alt="forecast temperature"></li>
-            </ul>
+        <div id="fiveday" class="hide">
+            <table>
+                <tr class="days">
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <td><img src="images/sunny.png" alt="forecast temperature"></td>
+                    <td><img src="images/cloudy.png" alt="forecast temperature"></td>
+                    <td><img src="images/sunny.png" alt="forecast temperature"></td>
+                    <td><img src="images/thunder.png" alt="forecast temperature"></td>
+                    <td><img src="images/cloudy.png" alt="forecast temperature"></td>
+                </tr>
+                <tr>
+                    <td>90°F</td>
+                    <td>82°F</td>
+                    <td>89°F</td>
+                    <td>76°F</td>
+                    <td>83°F</td>
+                </tr>
+            </table>
         </div>
         <h2>Article</h2>
         <div id="article">
@@ -59,8 +75,6 @@
         </div>
     
         <h2>Contact Information</h2>       
-    </main>
-    <footer>
         <div id="locationmap">
             <div class="locate">
                 <p>123 location street <br>
@@ -68,12 +82,17 @@
                 123-4567-8901<br><br>
                 Follow us on social platforms:</p>
                 <br>
-                <a href="#"><img src="twitter.png" alt="twitter logo"></a>
-                <a href="#"><img src="youtube.png" alt="youtube logo"></a>
-                <a href="#"><img src="facebook.png" alt="facebook logo"></a>
+                <img class="social" src="twitter.png" alt="twitter logo"></a>
+                <img class="social" src="youtube.png" alt="youtube logo"></a>
+                <img class="social" src="facebook.png" alt="facebook logo"></a>
             </div>
-                <!--image-->
+        <div>
+            <img class="map" src="map.png" alt="map"></a>
         </div>
+        </div>
+    </main>
+
+    <footer>
         <span class= "tb">© <span id="date"></span> | Nicole Fluckiger | Idaho | <a class= "byui" href="https://www.byui.edu/online">BYUI Online Learning</a></span> <br>
         <span class="last">Last Updated: </span><span class="bb" id="year"></span>
     </footer>
