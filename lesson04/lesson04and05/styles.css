@@ -219,4 +219,30 @@ td {
     background-color: #f1efe8;
     width: 100%;
   }
+  .article_img {
+    width: 300px;
+    float: right;
+  }
+  .forecast_img {
+    width: 140px;
+    height: 140px;
+  }
+  .header_img {
+    justify-content: center;
+    margin: 0 auto;
+    width: 680px;
+  }
+  .map {
+    float: left;
+    width: 400px;
+    margin-top: 30px;
+  }
+  footer {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 500px;
+    background-color: #ffe89e;
+    color: #536d83;
+    font-family: 'Comfortaa', cursive;
+  }
 }
