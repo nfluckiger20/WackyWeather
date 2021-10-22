@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
 
 .content {
   background-color: #abc0c6;
@@ -10,6 +11,21 @@
 
 main {
   padding: 1.2em;
+}
+
+.icon_img {
+  width: 50px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+}
+
+.header_img {
+  justify-content: center;
+  margin: 0 auto;
+  margin-right: 180px;
+  width: 1120px;
 }
 
 body {
@@ -25,6 +41,15 @@ h1 {
   font-size: 1.2em;
   justify-content: center;
   font-family: 'Comfortaa', cursive;
+  margin-left: 20px;
+}
+
+h4 {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Indie Flower', cursive;
+  padding-left: 10px;
 }
 
 header {
@@ -83,6 +108,13 @@ nav {
   padding: 2em;
 }
 
+.article_img {
+  width: 400px;
+  float: right;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -105,7 +137,7 @@ h3 {
   max-width: 50px;
   max-height: 50px;
   float: right;
-  padding-right: 20px;
+  padding-right: 42px;
 }
 
 .locate {
@@ -133,7 +165,7 @@ footer {
 
 th,
 td {
-  border: 1px solid black;
+  border: 1px solid #abc0c6;
   overflow: hidden;
 }
 
@@ -143,12 +175,20 @@ td {
   padding: 13px 40px;
   margin: auto;
   table-layout: fixed;
+  color: #536d83;
 }
 
 .days {
-  font-family: 'Comfortaa', cursive;
-  font-size: 25px;
-  color: purple;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  background-color: #ffe89e;
+  color: #536d83;
+}
+
+.forecast_img {
+  width: 230px;
+  height: 230px;
 }
 
 @media only screen and (max-width: 760px) {
