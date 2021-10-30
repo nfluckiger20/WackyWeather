@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
+
 .grid-container {
   display: grid;
   grid-gap: 30px;
@@ -66,16 +71,72 @@
   grid-row-end: 4;
 }
 
-.image {
-  width: 450px;
-  max-height: 280px;
-}
-
 /*image 1 wouldnt respond using the .image class*/
+.image,
 #img1 {
+  width: 450px;
   height: 280px;
 }
 
-img:hover {
+[data-src] img:hover {
   box-shadow: 5px 5px #888888;
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 35px;
+  background-color: #ffe89e;
+  color: #536d83;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  justify-content: center;
+  font-family: 'Comfortaa', cursive;
+  margin-left: 20px;
+}
+
+h4 {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Indie Flower', cursive;
+  padding-left: 10px;
+}
+
+header {
+  background-color: #ffe89e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  width: 100%;
+}
+
+.icon_img {
+  width: 50px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+  footer {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 30px;
+    background-color: #ffe89e;
+    color: #536d83;
+    font-family: 'Comfortaa', cursive;
+  }
+  .image,
+  #img1 {
+    width: 212px;
+    height: 150px;
+  }
 }
