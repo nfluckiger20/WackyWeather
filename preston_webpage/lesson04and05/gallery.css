@@ -66,11 +66,12 @@
   grid-row-end: 4;
 }
 
-.img {
+.image {
   width: 450px;
   max-height: 280px;
 }
 
+/*image 1 wouldnt respond using the .image class*/
 #img1 {
   height: 280px;
 }
