@@ -78,7 +78,7 @@
   height: 280px;
 }
 
-[data-src] img:hover {
+img:hover {
   box-shadow: 5px 5px #888888;
 }
 
