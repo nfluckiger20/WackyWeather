@@ -5,7 +5,7 @@
 
 .grid-container {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 70px;
 }
 
 .grid-item-1 {
@@ -85,7 +85,7 @@
 footer {
   text-align: center;
   font-size: 1em;
-  margin-top: 35px;
+  margin-top: 70px;
   background-color: #ffe89e;
   color: #536d83;
   font-family: 'Comfortaa', cursive;
@@ -108,7 +108,7 @@ h4 {
   padding-left: 10px;
 }
 
-header {
+.header {
   background-color: #ffe89e;
   display: flex;
   align-items: center;
@@ -138,5 +138,9 @@ header {
   #img1 {
     width: 212px;
     height: 150px;
+  }
+  .grid-container {
+    display: grid;
+    grid-gap: 30px;
   }
 }
