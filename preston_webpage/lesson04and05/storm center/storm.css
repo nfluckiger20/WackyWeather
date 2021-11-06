@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
+
+.icon_img {
+  width: 50px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+}
+
+body {
+  margin-left: 1em;
+  margin-right: 180px;
+  margin-left: 180px;
+}
+
+header {
+  background-color: #ffe89e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  width: 100%;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: #536d83;
+}
+
+.navigation {
+  display: flex;
+  color: #ffe89e;
+  list-style: none;
+  padding: 0;
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin: auto;
+}
+
+.navigation li {
+  flex: 1 1 auto;
+}
+
+.navigation a {
+  text-align: center;
+  display: block;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: #abc0c6;
+  border-top: 1px solid #abc0c6;
+}
+
+.navigation li:first-child {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 300px;
+  background-color: #ffe89e;
+  color: #536d83;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  justify-content: center;
+  font-family: 'Comfortaa', cursive;
+  margin-left: 20px;
+}
+
+h4 {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Indie Flower', cursive;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 760px) {
+  button {
+    display: block;
+    background-color: transparent;
+  }
+  /* .hide {
+      display: none;
+    } */
+  ul.navigation.responsive li {
+    display: block;
+  }
+  nav {
+    display: block;
+  }
+  .navigation {
+    overflow: hidden;
+    display: block;
+  }
+  .navigation li:first-child {
+    display: block;
+  }
+  .navigation li {
+    display: none;
+  }
+  body {
+    background-color: #f1efe8;
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 500px;
+    background-color: #ffe89e;
+    color: #536d83;
+    font-family: 'Comfortaa', cursive;
+  }
+}
