@@ -214,7 +214,7 @@ footer {
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: #f1efe8;
-    padding-right: 120px;
+    padding-right: 180px;
     height: 20px;
   }
   .item2 {
@@ -223,7 +223,7 @@ footer {
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: #f1efe8;
-    padding-left: 120px;
+    padding-left: 180px;
     height: 20px;
   }
   .item3 {
@@ -232,7 +232,7 @@ footer {
     grid-row-start: 3;
     grid-row-end: 4;
     background-color: #f1efe8;
-    padding-right: 120px;
+    padding-right: 180px;
     height: 20px;
   }
   .item4 {
@@ -243,6 +243,7 @@ footer {
     background-color: #f1efe8;
     padding-top: 8px;
     height: 210px;
+    padding-left: 30px;
   }
   .item5 {
     grid-column-start: 1;
@@ -252,6 +253,7 @@ footer {
     background-color: #f1efe8;
     padding-top: 8px;
     height: 210px;
+    padding-right: 30px;
   }
   .item6 {
     grid-column-start: 2;
@@ -261,6 +263,7 @@ footer {
     background-color: #f1efe8;
     padding-top: 8px;
     height: 210px;
+    padding-left: 30px;
   }
   h2 {
     font-size: 22px;
