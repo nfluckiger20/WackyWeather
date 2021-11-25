@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="storm.css">
+    <script src="storm.js" defer></script>
+    <title>Storm Center</title>
+</head>
+<header>
+    <h1 >WACKY WEATHER<br></h1> 
+    <br><br><h4>know which way the wind blows</h4>
+    <img class= "icon_img" src="storm.img/windlogo.png" alt="icon"></td> 
+</header>
+<nav>
+    <ul class="navigation">
+        <li><a class="ham" href="#">&#9776; Menu</a></li>
+        <li><a href="https://nfluckiger20.github.io/nicolefluckiger/WackyWeather/index/homepage.html">Home</a></li>
+        <li><a href="https://nfluckiger20.github.io/nicolefluckiger/WackyWeather/preston/preston.html" >Preston</a></li>
+        <li><a href="https://nfluckiger20.github.io/nicolefluckiger/WackyWeather/sodasprings/soda.html">Soda Springs</a></li>
+        <li><a href="https://nfluckiger20.github.io/nicolefluckiger/WackyWeather/fishhaven/fish.html">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li> </ul>
+</nav>
+<body>
+    <main>
+        <h1>Storm Center</h1>
+        <p>Use the form below to report any storms in your area:</p>
+        <div id="form">
+            <form action="thanks.html">
+                <fieldset id="infoYou">
+                    <legend><h3>Tell Us About Yourself</h3></legend><br>
+                    <label for="fullName">Name:</label>
+                    <input type="text" id="fullName" name="fullName" required pattern="[A-Za-z]{5}"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@provider.com"><br><br>
+                    <label for="telephone">Phone Number:</label>
+                    <input type="tel" id="telephone" name="telephone" required><br><br>
+                    <label for="zipCode">ZIP Code:</label>
+                    <input id="zipCode" name="zipCode" type="number" required>
+                </fieldset>
+                
+                <br>
+
+                <fieldset id="infoStorm">
+                    <legend><h3>About the Storm</h3></legend><br>
+
+                    <label for="stormDate">Date of Storm: </label>
+                    <input id="stormDate" name="stormDate" type="date"><br><br>
+                    <label for="stormType">Storm Type: </label>
+                    <input id="stormType" name="stormType" list="stormTypeList"><br><br>
+                    <datalist id="stormTypeList">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail Storm"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                        <option value="Rain Storm"></option>
+                        <option value="Blizzard"></option>
+                    </datalist>
+                    <label for="stormSeverity" class="flexly">Storm Severity
+                        <input id="stormSeverity" name="stormSeverity" type="range" value="5" min="1" max="10" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    </label><br><br>
+                    <label for="stormRegion">Storm Region</label>
+                    <select name="stormRegion" id="stormRegion"><br><br>
+                        <option value="Select Region..." disabled selected>Select...</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodaSprings">Soda Springs</option>
+                        <option value="fishHaven">Fish Haven</option>
+                    </select>
+                </fieldset>
+                
+                <br>
+
+                <fieldset id="addInfo">
+                    <legend><h3>Additional Information or Comments</h3></legend>
+                    <div id="danger">
+                        <p>Are you in Danger?</p>
+                        <input type="radio" id="yes" name="dangerLevel" value="Yes">
+                        <label for="yes">Yes</label><br>
+                        <input type="radio" id="maybe" name="dangerLevel" value="Maybe">
+                        <label for="maybe">Maybe</label><br>
+                        <input type="radio" id="no" name="dangerLevel" value="No">
+                        <label for="no">No</label><br><br>
+                    </div>
+                    <div id="textArea">
+                        <br>
+                        <label for="addInfo">Additional Information:</label><br><br>
+
+                        <textarea id="addInfo" name="addInfo" rows="5" placeholder="Type Here..."></textarea>
+                    </div>
+                </fieldset><br>
+
+
+                <input type="submit" value="Submit Storm Report">
+            </form>
+        </div>
+    </main>
+    
+</body>
+<footer>
+    <span class= "tb">© <span id="date"></span> | Nicole Fluckiger | Idaho | <a class= "byui" href="https://www.byui.edu/online">BYUI Online Learning</a></span> <br>
+    <span class="last">Last Updated: </span><span class="bb" id="year"></span>
+</footer>
+</html>
