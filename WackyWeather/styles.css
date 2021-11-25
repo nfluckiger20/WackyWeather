@@ -1,0 +1,264 @@
+#hero {
+    width:100%;
+    height:200px;
+    grid-column:1/-1;
+}
+#instagram, #facebook, #linkedin {
+    width:40px;
+    height:40px;
+}
+#preston-summary {
+    display:grid;
+    grid-template-columns: 20px 200px auto;
+    grid-template-rows: 20px 175px auto;
+}
+#preston-ws {
+    grid-column:2/3;
+    grid-row:2/3;
+    background-color: #d3d3d3;
+    padding: 15px;
+    overflow:hidden;
+    margin-bottom: 15px;
+    line-height: 8px;
+}
+#preston-ws h3 {
+    margin:0;
+}
+#preston-hero {
+    grid-column:1/4;
+    grid-row:1/4;
+}
+#forecast {
+    width:100%;
+    height:auto;
+}
+#preston-article {
+    background-color:#d3d3d3;
+    width:auto;
+    padding: 10px 20px;
+    margin:15px 0;
+    overflow:hidden;
+    font-size: 1.2em;
+}
+#preston-article img {
+    max-width:25%;
+    float:right;
+    padding: 15px 0 0 20px;
+}
+#location {
+    width: 50%;
+    height: 150px;
+}
+
+table {
+    border:1px solid #36454f;
+    text-align: center;
+    margin:0 auto;
+    width: 75%;
+    background-color:#ffc300;
+}
+td {
+    border:1px solid #36454f;
+    padding: 15px 15px 5px 15px;
+    margin: 10px;
+    background-color:white;
+}
+.town-cards {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .town-cards section {
+    width: 30%;
+    background-color: #d3d3d3;
+    box-shadow: 5px 5px 10px #36454f;
+  }
+  .town-cards a:visited,
+  .town-cards a:link {
+    text-decoration: none;
+    color: #36454f;
+  }
+  .town-cards section:hover {
+    transform: scale(1.01);
+  }
+  .town-cards section img {
+    width: 100%;
+    height:200px;
+  }
+  .gallery-img {
+    width: 300px;
+    height: 400px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 5px;
+    grid-row-gap: 20px;
+}
+
+[data-src] {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+}
+
+[data-src]:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+  .motto {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .info {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  section {
+     margin-top: 50px;
+  }
+@media only screen and (max-width:780px) {
+    body {
+        margin:0 0 25px 0;
+    }
+    .topnav a, #location{
+        display: none;
+    }
+    .topnav a.icon {
+      display:block;
+      max-width: 100%;
+      margin:0;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+      position: relative;
+    }
+    .topnav.responsive a.icon:hover {
+        background-color: #8bd2e1;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    nav ul {
+        display:block;
+        text-align:center;
+        margin:0;
+        padding:0;
+    }
+    nav a {
+        margin:0px;
+    }
+    #preston-summary {
+        display:block;
+    }
+    footer img {
+        display:none;
+    }
+    footer div {
+        margin: 0 auto;
+        text-align:center;
+    }
+    .town-cards {
+        display: block;
+      }
+      .town-cards section {
+        width: 75%;
+        text-align: left;
+        padding: 2%;
+        padding-bottom:25px;
+        margin: 30px auto;
+      }
+    
+      .town-cards .t-one img,
+      .town-cards .t-three img {
+        width: 60%;
+        float: right;
+      }
+    
+      .town-cards .t-two img {
+        width: 60%;
+        float: left;
+        padding-right: 10px;
+      }
+      .gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        grid-gap: 5px;
+        grid-row-gap: 20px;
+    }
+    .gallery img:hover {
+        box-shadow: none;
+    }
+    figcaption {
+        display: none;
+    }
+}
+@media only screen and (max-width: 590px) {
+    #preston-forecast{
+        display: none;
+    }
+    footer {
+        display:grid;
+        grid-template-rows: auto auto;
+        padding-left: 30px;
+    }
+    footer div {
+        grid-row:1;
+    }
+    #instagram, #facebook, #linkedin {
+        display:none;
+    }
+    #preston-article img {
+        float:none;
+        max-width:90%;
+        padding:20px;
+    }
+    #preston-ws {
+        text-align: center;
+    }
+    .town-cards section {
+        text-align: center;
+    }
+    .town-cards .t-one img,
+    .town-cards .t-three img {
+      width: 80%;
+      float: none;
+    }
+    .town-cards .t-two img {
+      width: 80%;
+      float: none;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        grid-gap: 5px;
+        grid-row-gap: 20px;
+    }
+    .gallery img:hover {
+        box-shadow: none;
+    }
+    figcaption {
+        display: none;
+    }
+    
+  }
