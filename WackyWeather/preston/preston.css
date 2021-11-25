@@ -277,3 +277,18 @@ td {
     font-size: 14px;
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .map {
+    width: 0%;
+  }
+  .locate,
+  .social {
+    margin: auto;
+  }
+  .social {
+    width: 40px;
+    margin-left: 80px;
+    padding: 0px;
+  }
+}
