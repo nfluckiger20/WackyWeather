@@ -19,16 +19,16 @@ footer {
 }
 
 #addy {
-  float: left;
-  font-size: 18px;
-  padding-left: 65px;
-}
-
-#contact {
-  font-size: 18px;
-  padding-left: 510px;
-  padding-top: 10px;
-}
+    float: left;
+    font-size: 18px;
+    padding-left: 65px;
+  }
+  
+  #contact {
+    font-size: 18px;
+    padding-left: 510px;
+    padding-top: 10px;
+  }
 
 #map {
   align-content: center;
@@ -39,5 +39,20 @@ footer {
   #map {
     width: 80%;
     margin: 0% 10% 0% 10%;
+   }
+  .nav-link {
+    padding: 7%;
+    margin: 0px 0px 0px 20px;
+  }
+  #addy {
+    float: left;
+    font-size: 20px;
+    padding-left: 300px;
+  }
+  
+  #contact {
+    font-size: 20px;
+    padding-left: 900px;
+    padding-top: 10px;
   }
 }
