@@ -1,0 +1,30 @@
+#icon_img {
+  margin-left: 50px;
+  width: 15%;
+}
+
+section {
+  height: 50px;
+  background-color: #f2e9e4;
+  margin-top: -35px;
+}
+
+.nav-link {
+  margin: auto;
+  align-content: center;
+  padding-left:50px;
+}
+
+a:hover{
+    color:#8A8C98;
+}
+
+a:visited{
+    color:#C9ADA7
+}
+
+footer{
+    background-color: #f2e9e4;
+    text-align: center;
+    margin-top:600px;
+}
