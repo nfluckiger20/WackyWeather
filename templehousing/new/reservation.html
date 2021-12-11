@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reservation.css">
     <title>Temple Suites</title>
     <nav>
    <img id= "icon_img" src="images/temple logo.png" alt="icon"></td> 
@@ -21,6 +22,63 @@
     <main>
         <section id="nav">
          </section>
-    </main>
+            <h1>Make a Reservation</h1>
+            <p>Please use the form below:</p>
+            <div id="form">
+                <form action="thanks.html">
+                    <fieldset id="infoYou">
+                        <legend><h3>Contact Information</h3></legend><br>
+                        <label for="fullName">Name:</label>
+                        <input type="text" id="fullName" name="fullName" required pattern="[A-Za-z]{5}"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="email@provider.com"><br><br>
+                        <label for="telephone">Phone Number:</label>
+                        <input type="tel" id="telephone" name="telephone" required><br><br>
+                        <label for="zipCode">ZIP Code:</label>
+                        <input id="zipCode" name="zipCode" type="number" required>
+                    </fieldset>
+                    
+                    <br>
+    
+                    <fieldset id="reserve">
+                        <legend><h3>Booking Information</h3></legend><br>
+    
+                        <label for="stormDate">Start Date: </label>
+                        <input id="stormDate" name="stormDate" type="date"><br><br>
+                        <label for="stormDate">End Date: </label>
+                        <input id="stormDate" name="stormDate" type="date"><br><br>
+                        <label for="stormType">Room Type: </label>
+                        <input id="stormType" name="stormType" list="stormTypeList"><br><br>
+                        <datalist id="stormTypeList">
+                            <option value="Suite"></option>
+                            <option value="Single Room"></option>
+                            <option value="Double Room"></option>
+                        </datalist>
+                        <label for="stormSeverity" class="flexly">Number of People
+                            <input id="stormSeverity" name="stormSeverity" type="range" value="5" min="1" max="10" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        </label><br><br>
+                        </select>
+                    </fieldset>
+                    
+                    <br>
+    
+                    <fieldset id="addInfo">
+                        <legend><h3>Additional Information or Comments</h3></legend>
+                        <div id="textArea">                            <label for="addInfo">Additional Information:</label><br><br>
+    
+                            <textarea id="addInfo" name="addInfo" rows="5" placeholder="Type Here..."></textarea>
+                        </div>
+                    </fieldset><br>
+    
+    
+                    <input type="submit" value="Submit Storm Report">
+                </form>
+            </div>
+        </main>
+    <footer>
+        <span class= "tb">© <span id="date"></span> | Nicole Fluckiger | Idaho | <a class= "byui" href="https://www.byui.edu/online">BYUI Online Learning</a></span> <br>
+        <span class="last">Last Updated: </span><span class="bb" id="year"></span>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
