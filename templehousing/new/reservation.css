@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 footer {
   margin-top: 10px;
 }
 
 h3 {
   background-color: #f2e9e4;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
 }
 
 body {
