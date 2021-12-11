@@ -1,6 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 h2 {
-    font-family: 'Lobster', cursive;
-    text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 28px;
+  padding: 0% 0% 0% 5%;
+}
+
+p {
+  font-size: 16px;
+  padding: 1% 2% 0% 10%;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+#hotel_img {
+  width: 40%;
+  float: right;
+  opacity: 95%;
+  padding: 3% 5% 0% 0%;
+  border-radius: 10%;
+}
+
+#special {
+  padding-top: 10px;
+}
+
+#recept {
+  padding-top: 20px;
+}
+
+/*desktop view*/
+@media screen and (min-width: 1200px) {
+  #hotel_img {
+    width: 30%;
   }
+}
