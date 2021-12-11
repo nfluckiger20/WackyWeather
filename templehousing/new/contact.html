@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Temple Suites</title>
     <nav>
    <img id= "icon_img" src="images/temple logo.png" alt="icon"></td> 
     <div>
-        <a href="#home" class="nav-link"><span class="nav-link-span"><span class="u-nav">Home</span></span></a>
-        <a href="#temple" class="nav-link"><span class="nav-link-span"><span class="u-nav">Temple</span></span></a>
-        <a href="#reservation" class="nav-link"><span class="nav-link-span"><span class="u-nav">Reservation</span></span></a>
-        <a href="#service" class="nav-link"><span class="nav-link-span"><span class="u-nav">Service</span></span></a>
-        <a href="#contact" class="nav-link"><span class="nav-link-span"><span class="u-nav">Contact</span></span></a>
+        <a href="https://nfluckiger20.github.io/nicolefluckiger/templehousing/new/index.html" class="nav-link"><span class="nav-link-span"><span class="u-nav">Home</span></span></a>
+        <a href="https://nfluckiger20.github.io/nicolefluckiger/templehousing/new/temple.html" class="nav-link"><span class="nav-link-span"><span class="u-nav">Temple</span></span></a>
+        <a href="https://nfluckiger20.github.io/nicolefluckiger/templehousing/new/reservation.html" class="nav-link"><span class="nav-link-span"><span class="u-nav">Reservation</span></span></a>
+        <a href="https://nfluckiger20.github.io/nicolefluckiger/templehousing/new/service.html" class="nav-link"><span class="nav-link-span"><span class="u-nav">Service</span></span></a>
+        <a href="https://nfluckiger20.github.io/nicolefluckiger/templehousing/new/contact.html" class="nav-link"><span class="nav-link-span"><span class="u-nav">Contact</span></span></a>
     </div>
     </nav>
 </head>
@@ -21,6 +22,32 @@
     <main>
         <section id="nav">
          </section>
+        <h1>Any Questions?</h1>
+         <fieldset id="infoYou">
+            <legend><h3>Please fill out the form below:</h3></legend><br>
+            <label for="fullName">Name:</label>
+            <input type="text" id="fullName" name="fullName" required pattern="[A-Za-z]{5}"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email@provider.com"><br><br>
+            <label for="telephone">Phone Number:</label>
+            <input type="tel" id="telephone" name="telephone" required><br><br>
+            <label for="zipCode">Question:</label>
+            <input id="zipCode" name="question" required>
+        </fieldset>
+        <input type="submit" value="Submit Form"><br><br>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23027.5116106389!2d-111.8018326!3d43.8259957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1639260930287!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <h3>
+            Address
+        </h3><div id="addy">
+        <p>4800 Montgomery Ln #300 <br>
+        Bethesada, MD 20814<br></p></div>
+        <div id="contact">
+        <h4>Contact Us:<a href="https://nfluckiger20.github.io/nicolefluckiger/templehousing/new/contact.html" class="nav-link"><span class="nav-link-span"><span class="u-nav">click here</span></span></a></h4></div>
     </main>
+    <footer>
+        <span class= "tb">© <span id="date"></span> | Nicole Fluckiger | Idaho | <a class= "byui" href="https://www.byui.edu/online">BYUI Online Learning</a></span> <br>
+        <span class="last">Last Updated: 2021</span><span class="bb" id="year"></span>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
