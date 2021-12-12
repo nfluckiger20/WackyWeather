@@ -1,0 +1,38 @@
+#Oklahoma {
+    margin-bottom: 50%;
+    margin-top:2%;
+  }
+
+img{
+width:20%;
+align-content: center;
+}
+
+main{
+    padding:0px 30px 30px 30px;
+}
+
+table {
+    background-color: #C9ADA7;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 13px 40px;
+    color: black;
+    margin: auto;
+    table-layout: fixed;
+  }
+
+  table:nth-of-type(odd) {
+    background-color: #F2E9E4;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  
+  td {
+    padding: 0.5rem;
+  }
+
