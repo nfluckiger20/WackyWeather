@@ -143,9 +143,6 @@ footer {
 
 /*mobile view*/
 @media screen and (max-width: 550px) {
-    body{
-        color:brown;
-    }
     #Oklahoma {
       margin-bottom: 200%;
       margin-top: 5%;
