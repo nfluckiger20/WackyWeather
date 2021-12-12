@@ -8,10 +8,28 @@ h3 {
   background-color: #f2e9e4;
 }
 
-h1{
+h1 {
   font-family: 'Lobster', cursive;
 }
 
 body {
   padding: 20px;
+}
+
+/*desktop view*/
+@media screen and (min-width: 1500px) {
+  #icon_img {
+    align-content: center;
+    width: 10%;
+    margin: auto;
+    margin: 0% 40% 0% 45%;
+  }
+  section {
+    height: 70px;
+    margin-top: -45px;
+  }
+  .nav-link {
+    padding: 7.1%;
+    margin: 0px 0px 0px 20px;
+  }
 }
