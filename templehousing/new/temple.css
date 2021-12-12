@@ -123,21 +123,21 @@ footer {
 /*desktop view*/
 @media screen and (min-width: 1300px) {
   #Oklahoma {
-    margin-bottom: 50%;
+    margin-bottom: 60%;
     margin-top: 2%;
   }
 
   #Kansas {
-    margin-bottom: 55%;
-    margin-top: -52%;
+    margin-bottom:68%;
+    margin-top: -42%;
   }
 
   #weather {
-    margin-top: 75%;
+    margin-top: 85%;
   }
 
   footer {
-    margin-top: 28%;
+    margin-top: 33%;
   }
 }
 
