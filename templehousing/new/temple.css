@@ -144,25 +144,25 @@ footer {
 /*mobile view*/
 @media screen and (max-width: 550px) {
     #Oklahoma {
-      margin-bottom: 200%;
+      margin-bottom: 230%;
       margin-top: 5%;
     }
   
     #Rexburg {
-      margin-bottom: 405%;
+      margin-bottom: 430%;
       margin-top: 5%;
     }
   
     #Kansas {
-      margin-bottom: 260%;
+      margin-bottom: 280%;
       margin-top: 100%;
     }
   
     #weather {
-      margin-top: 485%;
+      margin-top: 510%;
     }
   
     footer {
-      margin-top: 110%;
+      margin-top: 120%;
     }
   }
