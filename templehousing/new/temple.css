@@ -61,9 +61,6 @@ footer {
 
 /*tablet view*/
 @media screen and (min-width: 750px) {
-  body {
-    color: brown;
-  }
   #Oklahoma {
     margin-bottom: 90%;
     margin-top: 5%;
@@ -90,5 +87,38 @@ footer {
 
   footer {
     margin-top: 52%;
+  }
+}
+
+/*desktop view*/
+@media screen and (min-width: 910px) {
+  body {
+    color: brown;
+  }
+  #Oklahoma {
+    margin-bottom: 75%;
+    margin-top: 5%;
+  }
+
+  #Rexburg {
+    margin-bottom: 120%;
+  }
+
+  #Kansas {
+    margin-bottom: 88%;
+    margin-top: 100%;
+  }
+
+  #Idaho {
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
+
+  #weather {
+    margin-top: 138%;
+  }
+
+  footer {
+    margin-top: 45%;
   }
 }
