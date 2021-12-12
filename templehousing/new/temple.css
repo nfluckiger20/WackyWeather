@@ -92,9 +92,6 @@ footer {
 
 /*desktop view*/
 @media screen and (min-width: 910px) {
-  body {
-    color: brown;
-  }
   #Oklahoma {
     margin-bottom: 75%;
     margin-top: 5%;
@@ -120,5 +117,29 @@ footer {
 
   footer {
     margin-top: 45%;
+  }
+}
+
+/*desktop view*/
+@media screen and (min-width: 1300px) {
+  body {
+    color: brown;
+  }
+  #Oklahoma {
+    margin-bottom: 50%;
+    margin-top: 2%;
+  }
+
+  #Kansas {
+    margin-bottom: 55%;
+    margin-top: -52%;
+  }
+
+  #weather {
+    margin-top: 75%;
+  }
+
+  footer {
+    margin-top: 28%;
   }
 }
